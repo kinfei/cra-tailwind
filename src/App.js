@@ -19,8 +19,8 @@ function App() {
           </p>
         </blockquote>
         <figcaption class="font-medium">
-          <div class="text-blue-600">Sarah Dayan</div>
-          <div class="text-gray-500">Staff Engineer, Algolia</div>
+          <div class="text-blue-600">Lee Kin Fei</div>
+          <div class="text-gray-500">Frontend Developer, Malaysia</div>
         </figcaption>
       </div>
     </figure>
