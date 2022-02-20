@@ -1,0 +1,19 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["optionalDependencies"],
+      "addLabels": ["optional"]
+    },
+    {
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ]
+}
